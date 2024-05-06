@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Főoldal</title>
+	<link rel="stylesheet" href="ujfooldal.css">
+</head>
+
+<body>
+	<nav class="navbar background">
+		<ul class="links">
+            <li>Ikt projektmunka</li>
+            <div class = "horizontal-line"></div>
+			<li><a href="index.html">Üdvözlő</a></li>
+            <div class = "horizontal-line"></div>
+			<li><a href="rolunk.html">Rólunk</a></li>
+            <div class = "horizontal-line"></div>
+			<li><a id="icon">Színváltás</a></li>
+            <div class = "horizontal-line"></div>
+            <li><a href="Játék leírás.txt">Tájékoztató</a><a href=""> / </a><a href="Játék leírás angol.txt">Prospectus</a></li>
+            <div class = "horizontal-line"></div>
+            <li><a href="https://scratch.mit.edu/projects/930923722/">Játék / Game</a></li>
+		</ul>
+		
+	</nav>
+
+	<section class="firstsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big">Játékunk</h1>
+                <div class="horizontal-line2"></div>
+				<p class="text-small">
+                    Fedezze fel izgalmas játékunkat, mely közvetlenül elérhető az oldalon, valamint a fejlécben található "Játék" gombra kattintva is könnyedén elérhetővé válik.
+
+                    Ha részletesebb információra van szüksége a játék használatával kapcsolatban, ne habozzon kattintani a "Tájékoztató" gombra, ahol részletes útmutatónk segítségével könnyedén elsajátíthatja a játék minden fortélyát.    
+                    
+                    <br>Discover our exciting game, accessible directly on the website or with a simple click on the "Game" button located in the header.
+
+For more detailed information on how to play the game, don't hesitate to click on the "Prospectus" button. There, you'll find a comprehensive guide to mastering every aspect of the game.
+</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="secondsection">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big">
+					A játék
+				</h1>
+                <div class="horizontal-line2"></div>
+				<iframe src="https://scratch.mit.edu/projects/930923722/embed"  class="jatek-iframe"></iframe>
+			</div>
+		</div>
+	</section>
+
+    <script>
+        var icon = document.getElementById("icon");
+        icon.onclick = function(){ 
+          document.body.classList.toggle("bluewhite");
+      }
+          </script>
+</body>
+
+</html>
